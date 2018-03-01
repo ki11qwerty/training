@@ -97,6 +97,7 @@ class Tunnel extends Stage {
         }
     }
 }
+
 class Race {
     private ArrayList<Stage> stages;
     public ArrayList<Stage> getStages() { return stages; }
