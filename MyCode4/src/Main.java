@@ -1,5 +1,4 @@
 public class Main {
-7
     public static void main(String[] args) {
 	Main main = new Main();
 	Class m = main.getClass();
