@@ -4,6 +4,8 @@ public class Main {
 	Class m = main.getClass();
 	String name = m.getName();
 	System.out.print(" " + m+", "+name );
+
+
     }
 }
 //    Object это базовый класс для всех остальных объектов в Java. Каждый класс наследуется
