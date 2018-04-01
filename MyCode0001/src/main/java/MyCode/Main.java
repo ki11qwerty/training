@@ -3,9 +3,11 @@ package MyCode;
 public class Main{
     public static void main(String[] args) throws OneParametrIsNullExeption{
 
-//MyInterface intrTriple;
+MyInterface intrTriple;
 //MyInterface intrTestSomethingHarder;
-
+int[] arr6 = {5,6,7,8,9};
+int[][] arr8 = new int[2][8];
+int[][] arr7 = {{4,6,7,8,9},{6,5,46,47,6}};
 
 //int c =10;
 //int d =25;

@@ -1,5 +1,7 @@
-// G.Shildt - Method reference (456)
+// G.Shildt - Method reference (459) return here after framework
+//collection
 
+//G.Shildt - java.util.collection (563)--(567...)
 
 package MyCode;
 
