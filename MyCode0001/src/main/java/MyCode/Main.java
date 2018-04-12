@@ -1,15 +1,33 @@
 package MyCode;
 
+import java.util.ArrayList;
+
 public class Main{
     public static void main(String[] args) throws OneParametrIsNullExeption{
-
-MyInterface intrTriple;
+        Main mn = new Main();
+        MyInterface intrTriple;
 //MyInterface intrTestSomethingHarder;
-int[] arr6 = {5,6,7,8,9};
-int[][] arr8 = new int[2][8];
-int[][] arr7 = {{4,6,7,8,9},{6,5,46,47,6}};
-
-
+//int[] arr6 = {5,6,7,8,9};
+//int[][] arr8 = new int[2][8];
+//int[][] arr7 = {{4,6,7,8,9},{6,5,46,47,6}};
+        ArrayList<String> ar1 = new ArrayList<String>();
+        ar1.add("WTF?");
+        ar1.add("is");
+        ar1.add("going");
+        ar1.add("on");
+        ar1.add("d54d34d32d21d10d");
+        System.out.println(ar1.size());
+        ar1.remove(4);
+        System.out.println(ar1.size());
+        mn.printCollection(ar1);
+        ar1.clear();
+        ar1.add("work");
+        ar1.add("hard");
+        ar1.add(1,"is");
+        mn.printCollection(ar1);
+        System.out.println(ar1.get(1));
+        for (int i = 0; i<ar1.size(); i++)
+            System.out.println(ar1.get(i));
 
 
 
@@ -33,5 +51,16 @@ int[][] arr7 = {{4,6,7,8,9},{6,5,46,47,6}};
 //        System.out.println(intrTestSomethingHarder.myFunc(c,d,e));
 //        System.out.println(intrTestSomethingHarder.myFunc(c,d,e)+
 //        System.out.print(intrTestSomethingHarder.myFunc(250,2,110));
+    }
+    public void printStr(String[] str){
+        for (int i = 0;i<str.length; i++)
+            System.out.println(str[i]);
+    }
+    public void printCollection(ArrayList<String> ar){
+        String[] b = new String[ar.size()];
+        ar.toArray(b);
+        for (int i =0; i < b.length; i++)
+            System.out.println(b[i]);
+        System.out.println("Конец метода printCollection");
     }
 }
