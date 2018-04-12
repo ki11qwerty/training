@@ -1,36 +1,63 @@
 package MyCode;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class Main{
-    public static void main(String[] args) throws OneParametrIsNullExeption{
+    public static void main(String[] args) throws OneParametrIsNullExeption {
         Main mn = new Main();
         MyInterface intrTriple;
+        HashMap<String, Integer> hm1 = new HashMap<>();
+        hm1.put("Тини монтепульчано",3 );
+        hm1.put("Тини треббьяно",3 );
+        hm1.put("Фетцер зенфандель",10 );
+        hm1.put("Фрескелло розе",3 );
+        hm1.put("Терре аллегре Санжовезе",2 );
+        hm1.put("Российское шампанское сухое",5 );
+        hm1.put("Российское шампанское полусладкое",4 );
+        hm1.put("Алтай",11 );
+        hm1.put("Тайга",12 );
+        hm1.put("Абсолют",3 );
+        hm1.put("Вальполичелло",3 );
+        Set<Map.Entry<String,Integer>> set = hm1.entrySet();
+        for (Map.Entry<String,Integer> o : set){
+            System.out.print(o.getKey() + " -");
+            System.out.println(o.getValue() + "");
+        }
+        System.out.println("Сумма остатков = "+mn.getSumOfValues(hm1));
+    }
+    public int getSumOfValues(HashMap<String,Integer> hm1){
+        Set<Map.Entry<String,Integer>> set = hm1.entrySet();
+        int sumOfValue =0;
+        for(Map.Entry<String,Integer> o : set){
+            sumOfValue += o.getValue();
+        }
+        return sumOfValue;
+    }
 //MyInterface intrTestSomethingHarder;
 //int[] arr6 = {5,6,7,8,9};
 //int[][] arr8 = new int[2][8];
 //int[][] arr7 = {{4,6,7,8,9},{6,5,46,47,6}};
-        ArrayList<String> ar1 = new ArrayList<String>();
-        ar1.add("WTF?");
-        ar1.add("is");
-        ar1.add("going");
-        ar1.add("on");
-        ar1.add("d54d34d32d21d10d");
-        System.out.println(ar1.size());
-        ar1.remove(4);
-        System.out.println(ar1.size());
-        mn.printCollection(ar1);
-        ar1.clear();
-        ar1.add("work");
-        ar1.add("hard");
-        ar1.add(1,"is");
-        mn.printCollection(ar1);
-        System.out.println(ar1.get(1));
-        for (int i = 0; i<ar1.size(); i++)
-            System.out.println(ar1.get(i));
-
-
-
+//        ArrayList<String> ar1 = new ArrayList<String>();
+//        ar1.add("WTF?");
+//        ar1.add("is");
+//        ar1.add("going");
+//        ar1.add("on");
+//        ar1.add("d54d34d32d21d10d");
+//        System.out.println(ar1.size());
+//        ar1.remove(4);
+//        System.out.println(ar1.size());
+//        mn.printCollection(ar1);
+//        ar1.clear();
+//        ar1.add("work");
+//        ar1.add("hard");
+//        ar1.add(1,"is");
+//        mn.printCollection(ar1);
+//        System.out.println(ar1.get(1));
+//        for (int i = 0; i<ar1.size(); i++)
+//            System.out.println(ar1.get(i));
 //int c =10;
 //int d =25;
 //int e = 100;
@@ -50,17 +77,17 @@ public class Main{
 //        System.out.println(intrTestSomethingHarder.myFunc(c,d,e));
 //        System.out.println(intrTestSomethingHarder.myFunc(c,d,e));
 //        System.out.println(intrTestSomethingHarder.myFunc(c,d,e)+
-//        System.out.print(intrTestSomethingHarder.myFunc(250,2,110));
-    }
-    public void printStr(String[] str){
-        for (int i = 0;i<str.length; i++)
-            System.out.println(str[i]);
-    }
-    public void printCollection(ArrayList<String> ar){
-        String[] b = new String[ar.size()];
-        ar.toArray(b);
-        for (int i =0; i < b.length; i++)
-            System.out.println(b[i]);
-        System.out.println("Конец метода printCollection");
-    }
+////        System.out.print(intrTestSomethingHarder.myFunc(250,2,110));
+//    }
+//    public void printStr(String[] str){
+//        for (int i = 0;i<str.length; i++)
+//            System.out.println(str[i]);
+//    }
+//    public void printCollection(ArrayList<String> ar){
+//        String[] b = new String[ar.size()];
+//        ar.toArray(b);
+//        for (int i =0; i < b.length; i++)
+//            System.out.println(b[i]);
+//        System.out.println("Конец метода printCollection");
+//    }
 }
