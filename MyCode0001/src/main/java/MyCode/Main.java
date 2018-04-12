@@ -12,21 +12,26 @@ public class Main{
         HashMap<String, Integer> hm1 = new HashMap<>();
         hm1.put("Тини монтепульчано",3 );
         hm1.put("Тини треббьяно",3 );
-        hm1.put("Фетцер зенфандель",10 );
+        hm1.put("Фетцер зенфандель",1 );
         hm1.put("Фрескелло розе",3 );
         hm1.put("Терре аллегре Санжовезе",2 );
         hm1.put("Российское шампанское сухое",5 );
         hm1.put("Российское шампанское полусладкое",4 );
-        hm1.put("Алтай",11 );
+        hm1.put("Алтай", -100 );
         hm1.put("Тайга",12 );
         hm1.put("Абсолют",3 );
         hm1.put("Вальполичелло",3 );
-        Set<Map.Entry<String,Integer>> set = hm1.entrySet();
+        mn.printMap(hm1);
+        System.out.println("Сумма остатков = "+mn.getSumOfValues(hm1));
+        System.out.println(mn.SayResult(mn.getSumOfValues(hm1)));
+    }
+    public void printMap(HashMap<String,Integer> hm){
+        Set<Map.Entry<String,Integer>> set = hm.entrySet();
         for (Map.Entry<String,Integer> o : set){
             System.out.print(o.getKey() + " -");
             System.out.println(o.getValue() + "");
         }
-        System.out.println("Сумма остатков = "+mn.getSumOfValues(hm1));
+        System.out.println("---------------------------------------------------");
     }
     public int getSumOfValues(HashMap<String,Integer> hm1){
         Set<Map.Entry<String,Integer>> set = hm1.entrySet();
@@ -35,6 +40,14 @@ public class Main{
             sumOfValue += o.getValue();
         }
         return sumOfValue;
+    }
+    public String SayResult(int sum){
+        if (sum >= 50)
+            return "Нахера ты столько заказал ?";
+        else if (sum <50 && sum > 15)
+            return "Ты уверен что тебе хватит ?";
+        else
+            return "ты опять за компом сидишь? иди работай";
     }
 //MyInterface intrTestSomethingHarder;
 //int[] arr6 = {5,6,7,8,9};
