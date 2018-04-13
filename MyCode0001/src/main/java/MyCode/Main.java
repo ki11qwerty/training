@@ -5,50 +5,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class Main{
+public class Main {
     public static void main(String[] args) throws OneParametrIsNullExeption {
-        Main mn = new Main();
-        MyInterface intrTriple;
-        HashMap<String, Integer> hm1 = new HashMap<>();
-        hm1.put("Тини монтепульчано",3 );
-        hm1.put("Тини треббьяно",3 );
-        hm1.put("Фетцер зенфандель",1 );
-        hm1.put("Фрескелло розе",3 );
-        hm1.put("Терре аллегре Санжовезе",2 );
-        hm1.put("Российское шампанское сухое",5 );
-        hm1.put("Российское шампанское полусладкое",4 );
-        hm1.put("Алтай", -100 );
-        hm1.put("Тайга",12 );
-        hm1.put("Абсолют",3 );
-        hm1.put("Вальполичелло",3 );
-        mn.printMap(hm1);
-        System.out.println("Сумма остатков = "+mn.getSumOfValues(hm1));
-        System.out.println(mn.SayResult(mn.getSumOfValues(hm1)));
-    }
-    public void printMap(HashMap<String,Integer> hm){
-        Set<Map.Entry<String,Integer>> set = hm.entrySet();
-        for (Map.Entry<String,Integer> o : set){
-            System.out.print(o.getKey() + " -");
-            System.out.println(o.getValue() + "");
-        }
-        System.out.println("---------------------------------------------------");
-    }
-    public int getSumOfValues(HashMap<String,Integer> hm1){
-        Set<Map.Entry<String,Integer>> set = hm1.entrySet();
-        int sumOfValue =0;
-        for(Map.Entry<String,Integer> o : set){
-            sumOfValue += o.getValue();
-        }
-        return sumOfValue;
-    }
-    public String SayResult(int sum){
-        if (sum >= 50)
-            return "Нахера ты столько заказал ?";
-        else if (sum <50 && sum > 15)
-            return "Ты уверен что тебе хватит ?";
-        else
-            return "ты опять за компом сидишь? иди работай";
-    }
+
 //MyInterface intrTestSomethingHarder;
 //int[] arr6 = {5,6,7,8,9};
 //int[][] arr8 = new int[2][8];
@@ -103,4 +62,5 @@ public class Main{
 //            System.out.println(b[i]);
 //        System.out.println("Конец метода printCollection");
 //    }
+    }
 }
