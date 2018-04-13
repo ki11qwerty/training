@@ -1,5 +1,6 @@
 package MyCode;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -7,6 +8,31 @@ import java.util.Set;
 
 public class Main {
     public static void main(String[] args) throws OneParametrIsNullExeption {
+        int live = 100;
+        int coins = 50;
+        int finishedQuest = 0;
+        int lvl = 1;
+        String str = "";
+        try(FileReader fr = new FileReader("wtf.txt")) {
+            int c;
+
+
+        }catch (FileNotFoundException e){
+            e.printStackTrace();
+        }catch (IOException e ){
+            e.printStackTrace();
+        }
+
+
+
+
+
+        try(FileWriter fw =new FileWriter("wtf.txt", false)) {
+            for(int i=0;i<1000;i++)
+            fw.write(str+""+i+"\n");
+        }catch (IOException e){
+            System.out.println("Не удалось создать файл");
+        }
 
 //MyInterface intrTestSomethingHarder;
 //int[] arr6 = {5,6,7,8,9};
