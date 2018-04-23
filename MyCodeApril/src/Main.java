@@ -10,5 +10,6 @@ public class Main {
         System.out.println(inform.getConstructors());
         System.out.println(inform.getName());
 
+        //тут должна будет быть рефлексия =)
     }
 }
