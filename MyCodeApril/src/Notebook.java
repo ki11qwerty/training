@@ -1,6 +1,6 @@
 public class Notebook extends Computer {
     private String name;
-    boolean Cover = false;
+    private boolean Cover = false;
     Notebook(String name, String cpu , String rumType, int rumMemory, String videocardName, int videocardMemory){
         super(cpu,rumType,rumMemory,videocardName,videocardMemory);
         this.name = name;
