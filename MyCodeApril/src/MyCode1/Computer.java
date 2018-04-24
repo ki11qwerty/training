@@ -1,3 +1,5 @@
+package MyCode1;
+
 public class Computer {
    private String cpu;
    private String rumType;

@@ -1,3 +1,7 @@
+package MyCode1;
+
+import MyCode1.Computer;
+
 public class Desktop extends Computer {
     private String name;
     private boolean EnableAcDc = false;

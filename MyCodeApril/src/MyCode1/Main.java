@@ -1,3 +1,5 @@
+package MyCode1;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,7 +17,6 @@ public class Main {
         pi.printFields(nbClear);
         pi.printMethods(nb);
         pi.printMethods(cp);
-
     }
 
 }
