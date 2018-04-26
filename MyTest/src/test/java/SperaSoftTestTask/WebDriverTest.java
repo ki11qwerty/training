@@ -1,22 +1,24 @@
 package SperaSoftTestTask;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.File;
 
-
-public class WebDriverTest {
-
-   final String MY_PATH_TO_CHROME_DRIVER ="/JavaProjects/Tools/chromedriver.exe";
+//extends Assert
+public class WebDriverTest extends DriverSettings {
 
 
     @Test
     public void test1() {
-        System.setProperty("webdriver.chrome.driver",MY_PATH_TO_CHROME_DRIVER);
-        WebDriver driver = new ChromeDriver();
-        driver.get("http://demoqa.com/registration/");
+        assertTrue(driver.getTitle() != null);
+        driver.moveByOffset(int xOffset, int yOffset);
     }
+
 }

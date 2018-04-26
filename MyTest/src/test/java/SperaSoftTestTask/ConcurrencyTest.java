@@ -1,4 +1,5 @@
 package SperaSoftTestTask;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -9,7 +10,7 @@ public class ConcurrencyTest extends Assert {
 
     @DataProvider(parallel = true)
     public Object[][] concurrencyData() {
-        return new Object[][] {
+        return new Object[][]{
                 {"1", "2"},
                 {"3", "4"},
                 {"5", "6"},
