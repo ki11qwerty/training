@@ -18,7 +18,9 @@ public class WebDriverTest extends DriverSettings {
     @Test
     public void test1() {
         assertTrue(driver.getTitle() != null);
-        driver.moveByOffset(int xOffset, int yOffset);
+        List<IWebElement> linksToClick = driver.FindElement(By.Id("DivId")).FindElements(By.TagName("a")).ToList();
+
+        int linkCount = linksToClick.Count;
     }
 
 }
