@@ -15,8 +15,8 @@
       <file leaf-file-name="WebDriverTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/WebDriverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="504">
+              <caret line="36" column="56" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,11 +28,9 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/DriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +39,8 @@
       <file leaf-file-name="MyConstants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/MyConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,7 +49,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="-84">
               <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
@@ -84,10 +82,10 @@
         <option value="$PROJECT_DIR$/src/main/java/SperaSoftTestTask/GenericTableTest .java" />
         <option value="$PROJECT_DIR$/src/test/java/SperaSoftTestTask/GenericTableTest .java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/SperaSoftTestTask/DriverSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/SperaSoftTestTask/ConcurrencyTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SperaSoftTestTask/MyConstants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SperaSoftTestTask/DriverSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/SperaSoftTestTask/WebDriverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SperaSoftTestTask/MyConstants.java" />
       </list>
     </option>
   </component>
@@ -118,8 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -171,7 +167,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -458,34 +456,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WebDriverTest - 2018.04.26 at 15h 09m 27s.xml">
+    <history-entry file="WebDriverTest - 2018.04.29 at 13h 13m 02s.xml">
       <configuration name="WebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2018.04.26 at 15h 10m 13s.xml">
+    <history-entry file="WebDriverTest - 2018.04.29 at 13h 16m 24s.xml">
       <configuration name="WebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2018.04.26 at 15h 56m 21s.xml">
+    <history-entry file="WebDriverTest - 2018.04.29 at 13h 17m 29s.xml">
       <configuration name="WebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2018.04.26 at 16h 22m 51s.xml">
+    <history-entry file="WebDriverTest - 2018.04.29 at 13h 31m 15s.xml">
       <configuration name="WebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2018.04.26 at 16h 39m 16s.xml">
+    <history-entry file="WebDriverTest - 2018.04.29 at 13h 32m 46s.xml">
       <configuration name="WebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2018.04.26 at 16h 52m 25s.xml">
+    <history-entry file="WebDriverTest - 2018.04.29 at 13h 34m 35s.xml">
       <configuration name="WebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2018.04.26 at 16h 52m 35s.xml">
+    <history-entry file="WebDriverTest - 2018.04.29 at 13h 41m 13s.xml">
       <configuration name="WebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2018.04.26 at 16h 53m 27s.xml">
+    <history-entry file="WebDriverTest - 2018.04.29 at 13h 42m 49s.xml">
       <configuration name="WebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2018.04.26 at 16h 53m 56s.xml">
+    <history-entry file="WebDriverTest - 2018.04.29 at 13h 43m 56s.xml">
       <configuration name="WebDriverTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WebDriverTest - 2018.04.26 at 16h 54m 17s.xml">
+    <history-entry file="WebDriverTest - 2018.04.29 at 13h 52m 11s.xml">
       <configuration name="WebDriverTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -505,7 +503,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2964554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30504835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -559,22 +557,85 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/ConcurrencyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/WebDriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/DriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/MyConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/WebDriverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/DriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/MyConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/ConcurrencyTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/DriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,22 +666,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/ConcurrencyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/ConcurrencyTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/DriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,38 +713,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/CalcTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/ConcurrencyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/ConcurrencyTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/FactoryTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/GenericTableTest .java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/CalcTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SperaSoftTestTask/Calc.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/ConcurrencyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/ConcurrencyTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="-84">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/MyConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -700,19 +738,17 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/DriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SperaSoftTestTask/WebDriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="504">
+          <caret line="36" column="56" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

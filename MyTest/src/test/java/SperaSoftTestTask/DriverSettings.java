@@ -15,8 +15,8 @@ public class DriverSettings extends Assert implements MyConstants {
         driver = new ChromeDriver();
     }
 
-    @AfterTest
-    public void close() {
-        driver.quit();
-    }
+//    @AfterTest
+//    public void close() {
+//        driver.quit();
+//    }
 }
