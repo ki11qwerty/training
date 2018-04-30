@@ -14,16 +14,16 @@ public class MyTesting extends DriverSettings {
         driver.findElement(By.id("dropdown_7")).click();
     }
 
-    @Test
-    public void getOptionsText() {
-        WebElement listText = driver.findElement(By.id("dropdown_7"));//(By.xpath("(//*[@id='post-4272']//select)[1]"));
-        getSelect(listText);
-        List<WebElement> options = select.getOptions();
-        int i = 1;
-        for (WebElement option: options) {
-            System.out.println(i + ". Опция списка: " + option.getText());
-            i++;
-            }
-    }
+//    @Test
+//    public void getOptionsText() {
+//        WebElement listText = driver.findElement(By.id("dropdown_7"));//(By.xpath("(//*[@id='post-4272']//select)[1]"));
+//        getSelect(listText);
+//        List<WebElement> options = select.getOptions();
+//        int i = 1;
+//        for (WebElement option: options) {
+//            System.out.println(i + ". Опция списка: " + option.getText());
+//            i++;
+//            }
+ //   }
 
 }
