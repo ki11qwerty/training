@@ -25,8 +25,9 @@ public class DriverSettings extends Assert implements MySettingsConstants {
         System.setProperty("webdriver.chrome.driver", MY_PATH_TO_CHROME_DRIVER);
         driver = new ChromeDriver();
     }
+
     @BeforeTest
-    public void createCountryList(){
+    public void createCountryList() {
         //read .txt file with all available countries and add to list
         try (BufferedReader br = new BufferedReader(new FileReader("countryList.txt"))) {
             String str;
@@ -47,7 +48,7 @@ public class DriverSettings extends Assert implements MySettingsConstants {
         return select;
     }
 
-    @ AfterTest
+    @AfterTest
     public void close() {
         countryList.clear();
         driver.quit();

@@ -1,0 +1,10 @@
+Dear Sir,
+
+    I suppose that I found an error in application which I'm 
+testing at the moment. On the website Domoqa.com on registration page, the field "Hobby" is required to pick some answer.
+In my opinion it should work differently, but in technical documentation which I have, I didn't find detailed information
+about how it should work properly.
+    Could you please send me the newest updated documentation according to the latest requirements and with information\
+how this function (feature) should work properly now?
+thank you very much, have a nice day!
+                                                      Yours faithfully Aleksey Antonov.
