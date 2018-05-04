@@ -10,6 +10,6 @@ public class MyBot extends DriverSettings {
         driver.findElement(By.name("email")).sendKeys(Login);
         driver.findElement(By.name("pass")).sendKeys(Password);
         driver.findElement(By.id("quick_login_button")).click();
-        driver.findElement(By.className("left_label inl_bl")).click(); // чет хуйня какая то
+       // driver.findElement(By.className("left_label inl_bl")).click(); // чет хуйня какая то
     }
 }
