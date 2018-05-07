@@ -24,7 +24,7 @@ public class DriverSettings implements Constantable {
         System.setProperty("webdriver.chrome.driver", WEB_DRIVER_CHROME);
         driver = new ChromeDriver();
         try(BufferedReader bf = new BufferedReader(new FileReader("C:\\JavaProjects\\Tools\\Pass.txt"))){
-            Login=bf.readLine();    //input or create Pass.txt File to this folder with 1 line login 2 line - password
+            Login=bf.readLine();    //input or create Pass.txt File to this folder with first line login,2 line - pass
             Password=bf.readLine();
         }catch (FileNotFoundException e){
             e.printStackTrace();
