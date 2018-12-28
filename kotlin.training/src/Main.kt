@@ -11,14 +11,9 @@ fun main(args : Array<String>) {
     person2.printAllFields()
 
     var list:MutableList<String> = mutableListOf()
-    list.add("some1")
-    list.add("some2")
-    list.add("some3")
-    list.add("some4")
-    list.add("some5")
-    list.add("some6")
-    list.add("some7")
-    list.add("some8")
+    for(x in 1..10){
+        list.add("some$x")
+    }
     println("list$list")
     println("item5 in list: ${list[4]}")
     val readOnly:List<String> = list
@@ -39,5 +34,22 @@ fun main(args : Array<String>) {
     myDog.voice()
     myDog2.voice()
 
+    val text = """
+         ----------------------------------------------------------------------------------------------------
+                                               some text
+                                         its 44 row in code
+                                  tomorrow again I GO TO MY JOB XD
+                    P.S. - How its Works???? WTF )))))))))))))))))))))))))))))))))))))
+                    .∧＿∧
+                    ( ･ω･｡)つ━☆・*。
+                     ⊂　 ノ 　　　・゜+.
+                     しーＪ　　　°。+ *´¨)
+　　　　　　　　                 　.· ´¸.·*´¨) ¸.·*¨)
+　　　　　　　                       　　　(¸.·´ (¸.·'*
+         ----------------------------------------------------------------------------------------------------
+        """
+    println(text)
+  //TODO: круто, ничего не скажешь... остановился на -> kotlin -> основы -> Операторы перехода
+    // TODO: с такими темпами можно и за пару недель освоить основы я думаю)
 
 }
