@@ -1,3 +1,5 @@
+import java.util.*
+
 class Person(val name:String, val age: Int, val someInfo: String)
 
 fun main(args : Array<String>) {
@@ -51,5 +53,21 @@ fun main(args : Array<String>) {
     println(text)
   //TODO: круто, ничего не скажешь... остановился на -> kotlin -> основы -> Операторы перехода
     // TODO: с такими темпами можно и за пару недель освоить основы я думаю)
+
+    var rand = Random()
+    loop@for(x in 1..1000) {
+        var randomInt: Int = rand.nextInt(100) + 1
+        if (randomInt == 42) { println("okay its 42")
+            break@loop}
+        when (randomInt) {
+            in 1..29 -> println(">0 this <30")
+            in 30..60  -> println(">=30 this <=60")
+            in 61..100 -> println(">60 this <=100")
+            else -> {
+                println("something Wrong =(")
+            }
+        }
+    }
+    //TODO:классы и наследование
 
 }
