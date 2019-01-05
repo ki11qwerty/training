@@ -1,5 +1,5 @@
 import java.util.*
-import kotlin.coroutines.*
+//import kotlinx.coroutines.*
 
 class Person(val name:String, val age: Int, val someInfo: String)
 
@@ -73,11 +73,21 @@ fun main(args : Array<String>) {
     }
     //TODO:классы и наследование
 
-//TODO: ну это пиздец какой то, пол дня проебаться с Грэдлом, потом пол дня вот с этой хуйней коррутины блять им. прям бомбанул
-//    fun multi() = runBlocking {
-//        repeat(100_000) { // launch a lot of coroutines
+//    //TODO: ну это пиздец какой то, пол дня проебаться с Грэдлом, потом пол дня вот с этой хуйней коррутины блять им. прям бомбанул
+//    fun multi() {
+//        repeat(100_000) {
 //            launch {
 //                delay(1000L)
 //                print(".")
 //            }
+//        }
+//    }
+
+    var myClass = MyClass("name", 28)
+
+    fun MyClass.info():String = "$name,$age - это сделано через расширение, прикольная штука однако"
+
+    println(myClass.info())
+            //TODO: классы, расширения, дата классы и тому подобное, учу доки пока что
 }
+class MyClass(var name:String, var age:Int)
