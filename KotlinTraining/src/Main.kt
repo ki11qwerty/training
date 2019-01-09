@@ -85,9 +85,11 @@ fun main(args : Array<String>) {
 
     var myClass = MyClass("name", 28)
 
-    fun MyClass.info():String = "$name,$age - это сделано через расширение, прикольная штука однако"
+    fun MyClass.info():Unit = println("$name,$age") //- это сделано через расширение, прикольная штука однако"
 
-    println(myClass.info())
+    myClass.info()
             //TODO: классы, расширения, дата классы и тому подобное, учу доки пока что
+    //TODO: ананимные классы, Анонимные обьекты, обобщения, изолированные классы, перечисления, Модификаторы доступа, все по докам попорядку идет пока что
+    
 }
 class MyClass(var name:String, var age:Int)
