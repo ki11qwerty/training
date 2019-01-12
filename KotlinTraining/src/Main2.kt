@@ -11,7 +11,7 @@ fun main(args : Array<String>) {
 
     val firstArr = arrayOf(5,6,7,8,9)
     var secondArr = arrayOf(1,2,3,4,10,11,12,13)
-    println("size of sexondArr ${secondArr.size}")
+    println("size of seсondArr ${secondArr.size}")
     for(x in secondArr) print("$x ")
 
     println(); println("------------")
