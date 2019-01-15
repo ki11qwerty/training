@@ -94,5 +94,7 @@ fun main(args : Array<String>) {
     //TODO: гикбрейнс видос про андройд разработку на котлин с нуля 1.10 , надо досмотреть
     //TODO: все около лямбд и функции
 
+            //TODO: доклады джетБрейнс, теория, задачки по котлину на сайте -  https://try.kotlinlang.org/#/Kotlin%20Koans/Introduction/Named%20arguments/Task.kt
+
 }
 data class MyClass(var name:String, var age:Int)

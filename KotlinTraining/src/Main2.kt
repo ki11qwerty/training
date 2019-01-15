@@ -17,7 +17,12 @@ fun main(args : Array<String>) {
     println(); println("------------")
 
     secondArr = arrayOf(1,2,3,4, *firstArr,10,11,12,13)
-    println("size of sexondArr ${secondArr.size}")
+    println("size of secondArr ${secondArr.size}")
     for(x in secondArr) print("$x ")
     println()
+    var i = 0
+    repeat(100){
+        print("$i  ")
+        i++
+    }
 }
