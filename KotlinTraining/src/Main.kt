@@ -97,7 +97,7 @@ fun main(args : Array<String>) {
     //TODO: доклады джетБрейнс, теория, задачки по котлину на сайте -  https://try.kotlinlang.org/#/Kotlin%20Koans/Introduction/Named%20arguments/Task.kt
 
 
-
+// лямбды и не только
 
 
 }
