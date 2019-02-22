@@ -29,7 +29,13 @@ fun breakingFun() = runBlocking {
     }
     println("--------------------------")
     //jobs.forEach{ it.join()}
-    println("\n \n йебой")
+    val myJobs2 = List(20){
+        launch {
+            delay(10)
+            println("\n \n йебой")
+        }
+    }
+    myJobs2.forEach{it.join()}
 }
 
 var i = 0
