@@ -1,12 +1,12 @@
 import kotlinx.coroutines.*
-fun main(args: Array<String>) {
+fun main(args: Array<String>) = runBlocking {
     println("Here we go")
     i = 0
-    breakingFun()
+    launch { breakingFun()  }
     for(x in 0..10) {
         println("for in main $x")
     }
-    getBoolean()
+    launch { getBoolean() }
     println("end main")
 }
 suspend fun someFun(){
@@ -28,7 +28,7 @@ fun breakingFun() = runBlocking {
         }
     }
     println("--------------------------")
-    //jobs.forEach{ it.join()}
+    jobs.forEach{ it.join()}
     println("starting myJobs2")
     val myJobs2 = List(20) {
         launch {
@@ -54,7 +54,6 @@ fun getBoolean() = runBlocking {
     }
     println("in end of getBoolean()")
 }
-
 
 
 var i = 0
