@@ -1,43 +1,35 @@
 import kotlinx.coroutines.*
 
-fun main(args: Array<String>) = runBlocking{
-    val myString = async { someString() }
-    val myJob = launch { createCoroutines() }
-    println()
-    println("------")
-    println()
-    for(x in 1..10){
-        print("$x-x ")
+fun main(args: Array<String>) {
+    val myHardJob = GlobalScope.async {createString()}
+    val myScope = GlobalScope.launch{
+        delay(500)
+        print("World!")
     }
-    myJob.join()
-    println()
-    println(myString.await())
+    print("Hello, ")
+    runBlocking { myScope.join() }
+    print("\n its a ")
+    runBlocking {
+        delay(500)
+        print("Coroutine\n" ) }
+    runBlocking {
+        for(x in 1..10){
+        for (y in 0..2){
+            delay(250)
+            print("_")}
+            print("${x}\n")
+           }
+    }
+    println("--------------------end----------------------")
+    runBlocking {  print(myHardJob.await() +"\n its await = 5second in GlobalScope\n") }
+    val newString = GlobalScope.async {createString()}
+    runBlocking { print(newString.await() + "\nand this is too but create late") }
 }
-
-fun createCoroutines() = runBlocking{
-    launch {
-        secondCoroutines()
+suspend fun createString() : String{
+    var myString = ""
+    for (x in 0..50){
+        delay(100)
+        myString += "$x "
     }
-    launch {
-        delay(5000)
-        println()
-        println("------")
-        println()
-        for (z in 1..10) {
-            print("$z-z ")
-        }
-    }
-}
-suspend fun secondCoroutines(){
-    delay(4000)
-    println()
-    println("------")
-    println()
-    for(y in 1..10){
-        print("$y-y ")
-    }
-}
-suspend fun someString(): String{
-    delay(7000)
-    return "String isReady!"
+    return myString
 }
